@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity2" Title="StackLayout and Frame ">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+      
+            <Frame BorderColor="Black"
+                       Padding="15">
+                <StackLayout Orientation="Horizontal"
+                                 Spacing="20">
+                    <BoxView Color="HotPink"/>
+                    <Label Text="Hot Pink" FontSize="Large" 
+                               VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black"
+                       Padding="15">
+                <StackLayout Orientation="Horizontal"
+                                 Spacing="20">
+                    <BoxView Color="Maroon"/>
+                    <Label Text="Light Blue" FontSize="Large" 
+                               VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black"
+                       Padding="15">
+                <StackLayout Orientation="Horizontal"
+                                 Spacing="20">
+                    <BoxView Color="LightGoldenrodYellow"/>
+                    <Label Text="Cream"
+                               FontSize="Large" 
+                               VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
